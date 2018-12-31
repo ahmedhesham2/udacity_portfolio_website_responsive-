@@ -1,0 +1,31 @@
+body {
+	padding-top: 80px;
+}
+
+.featured-project {
+	margin-bottom: 30px;
+}
+
+.custom-heading {
+	color: #333;
+	margin: 30px 0;
+	font-weight: 600;
+	border-bottom: 1px solid #eee;
+}
+
+.p-image {
+	height: 188px;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 20px 0;
+	border-top: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+	.p-image {
+		width: 100%;
+		height: auto;
+	}
+}
